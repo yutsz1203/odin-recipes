@@ -7,22 +7,29 @@ img {
 }
 
 body{
-    background-color:rgb(169, 246, 246);
+    background-color:#b9def5;
     font-family:'Courier New', Courier, monospace;
 }
 
 h1{
     text-align: center;
     font-size: 50px;
-    color:deeppink;
+    color:rgb(115, 67, 9);
+    border: 5px solid rgb(164, 209, 80);
+    background-color: white;
 }
 
 .recipe{
     list-style-type: square;
     text-align:center;
     list-style-position:inside;
-    color:deeppink;
-    font-size: 25px;
+    color:rgb(115, 67, 9);
+    border: 5px solid rgb(164, 209, 80);
+    background-color: white;
+    height: 50px;
+    width:500px;
+    font-size: 35px;
+    margin: 20px auto; 
 }
 
 ul,
@@ -41,4 +48,12 @@ h2{
 
 h2{
     font-size: 30px;
+}
+
+.quantity{
+    background-color: yellow;
+}
+
+li {
+    margin-bottom: 10px;
 }
